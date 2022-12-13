@@ -1,0 +1,235 @@
+<html lang=en>
+<head>
+<title>My Profile</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: center;
+  color:#FFF
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  text-align: center;
+  color: white;
+}
+
+ table, td{
+ border:1px solid;
+ height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ table{
+ width:70%
+
+ }
+
+  .button {
+  background-color: red; 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.button {border-radius: 100px;}
+ 
+ #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+ 
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: red;
+  color: black;
+}
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.side {
+  -ms-flex: 30%; 
+  flex: 20%;
+  background-color:black;
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: pink;
+  padding: 20px;
+}
+
+  div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+</style>
+</head>
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;</button>
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<div class="header">
+  <img src="image/header.png" alt="header" width="100%">
+</div>
+
+<div class="navbar">
+<b><a style="font-family:Ink Free" href="aboutme.html">Cover Page</a></b>
+<b><a style="font-family:Ink Free" href="index.html">My Profile</a></b>
+<b><a style="font-family:Ink Free" href="education.html">Education</a></b>
+<b><a style="font-family:Ink Free" href="hobby.html">Hobby</a></b>
+<b><a style="font-family:Ink Free" href="myphotos.html">Photos</a></b>
+<b><a style="font-family:Ink Free" href="myfamily.html">My Family</a></b>
+<b><a style="font-family:Ink Free" href="myfriend.html">My Friend</a></b>
+<b><a style="font-family:Ink Free" href="suksis.html">Suksis</a></b>
+</div>
+  
+<div class="row">
+  <div class="side">
+    <h2 style="text-align:center; font-family:Lucida Handwriting">Anis Zulnawaren</h2>
+   <img src="image/mainphoto.jpeg" width="90%">
+<br>
+<audio controls>
+  <source src="audio/lagu.mp3" type="audio/mpeg">
+  </audio>
+  <br>
+  <br>
+  <br>
+	<a href="https://www.instagram.com/aniszlnwren_" target="_blank"><i class="fa fa-instagram"> Instagram</i></a>
+  </div>
+  
+  <div class="main">
+  <marquee><h2 style="color:black; font-family:Ink Free">&#9825;Assalamualaikum, Welcome to My Personal Website&#9825;</h2></marquee>
+    <h2 style="font-family:Lucida Sans; color:black">NUR ANIS BINTI ZULNAWAREN &#129308;&#127996;&#129307;&#127996;&#128522;</h2>
+    <img src="image/mainphoto2.jpeg" width="50%" >
+   <h2 style="font-family:Lucida Sans; color:black;"" id="about">My Profile &#128221;</h2>
+    <table>
+		<td rowspan="2" style="color:black" align="center">Name</td>
+		<tr>
+			<td style="color:black" align="center"> NUR ANIS BINTI ZULNAWAREN </td>
+		</tr>
+		<!--matrixno-->
+			<tr>
+				<td style="color:black" align="center">Student ID</td>
+				<td style="color:black" align="center">2021829036</td>
+			</tr>
+			<!--class-->
+			<tr>
+				<td style="color:black" align="center">Class</td>
+				<td style="color:black" align="center">KIM2443A</td>
+			</tr>
+			<!--email-->
+			<tr>
+				<td style="color:black" align="center">Email Address</td>
+				<td style="color:black" align="center">2021829036@student.uitm.edu.my</td>
+			</tr>
+	</table>
+	<br>
+	<center><video width="640" height="480" controls>
+  <source src="video/aboutme.mp4" type="video/mp4">
+</video></center>
+<br>
+	<h2 style="font-family:Lucida Sans; color:black;" id="about">About Me &#127872;</h2>
+    <p align="justify" style="color:black; font-family:Segoe Print">My name is Nur Anis binti Zulnawaren. The name Nur is derived from the Arabic language which means light while Anis also belongs to the Islamic baby’s name which originates from the Arabic language, the unique meaning of this word is that the name Anis has the meaning of a friendly and loyal friend. I am usually better known as Anis Zulnawaren but there are also nicknames that are called by some other people. I was born on November 18, 2001 at INS Specialist Hospital. I am the eldest of four siblings. The age gap between my siblings is very far and I am the only daughter among the siblings.</p>
+	<p align="justify" style="color:black; font-family:Segoe Print">My personality is that I am a friendly person who is easy-going and loves to make new friends, but I can also be shy at times. I'm also a very emo person sometimes and if I can't control it, I get angry easily. Even so, I'm also quick to cool down from being emotional. 
+	As many people know especially family and close acquaintances, they know very well that I love to sleep a lot. I am a very sleepy person. I can sleep for a long time. What I was afraid of when I was young was cats and it still persists to this day. I still can't overcome the problem of being afraid of this animal even though it seems very cute to other people. 
+	The cat's look at me also made me feel scared.</p>
+	<p align="justify" style="color:black; font-family:Segoe Print">I want to be a knowledgeable, reliable and responsible police officer. What motivates me in my daily life is I want to be successful so that I can help and make my family happy, especially my parents, who have worked hard to take care of me since I was born. 
+	Also, I have ambitions to acquire different types of assets for my life. If I could change anything about myself, I want to be a better version of myself than before.</p>
+</div>
+</div>
+<div class="footer">
+  <a href="aboutme.html">Cover Page |<a href="index.html"> My Profile |<a href="myfamily.html"> My Family |<a href="myfriend.html"> My Friend |<a href="suksis.html"> Suksis </a><br>
+</br> 
+<p style="color:black;"> copyright 2022-anis zulnawaren </p>
+</div>
+</body>
+</html>

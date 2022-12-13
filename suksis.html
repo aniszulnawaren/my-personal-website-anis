@@ -1,0 +1,245 @@
+<html lang=en>
+<head>
+<title>Suksis</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: center;
+  color:#FFF
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  text-align: center;
+  color: white;
+}
+
+ table, td{
+ border:1px solid;
+ height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ table{
+ width:70%
+
+ }
+
+  .button {
+  background-color: red; 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.button {border-radius: 100px;}
+ 
+ #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+ 
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: red;
+  color: black;
+}
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.side {
+  -ms-flex: 30%; 
+  flex: 20%;
+  background-color:black;
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: pink;
+  padding: 20px;
+}
+
+  div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+</style>
+</head>
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;</button>
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<div class="header">
+  <img src="image/header.png" width="100%">
+</div>
+
+<div class="navbar">
+<b><a style="font-family:Ink Free" href="aboutme.html">Cover Page</a></b>
+<b><a style="font-family:Ink Free" href="index.html">My Profile</a></b>
+<b><a style="font-family:Ink Free" href="education.html">Education</a></b>
+<b><a style="font-family:Ink Free" href="hobby.html">Hobby</a></b>
+<b><a style="font-family:Ink Free" href="myphotos.html">Photos</a></b>
+<b><a style="font-family:Ink Free" href="myfamily.html">My Family</a></b>
+<b><a style="font-family:Ink Free" href="myfriend.html">My Friend</a></b>
+<b><a style="font-family:Ink Free" href="suksis.html">Suksis</a></b>
+</div>
+  
+<div class="row">
+  <div class="side">
+<h2 style="text-align:center; font-family:Lucida Handwriting">Anis Zulnawaren</h2>
+   <img src="image/mainphoto.jpeg" width="90%">
+<br>
+<audio controls>
+  <source src="audio/lagu.mp3" type="audio/mpeg">
+  </audio>
+  <br>
+  <br>
+  <br>
+	<a href="https://www.instagram.com/aniszlnwren_" target="_blank"><i class="fa fa-instagram"> Instagram</i></a>
+  </div>
+  
+  <div class="main">
+  <marquee><h2 style="color:black; font-family:Ink Free">&#9825;Assalamualaikum, Welcome to My Personal Website&#9825;</h2></marquee>
+    <h2 style="font-family:Lucida Sans; color:black;">SUKSIS &#128110;&#128153;</h2>
+    <h5 style="font-size:130%; font-family:Lucida Sans Typewriter; color:black;">Only strength can cooperate</h5>
+    <img src="image/suksis1.jpg" width="50%" >
+	<br>
+	<h2 style="font-family:Lucida Sans; color:black;">About Suksis</h2>
+    <p align="justify" style="color:black; font-family:Segoe Print">Suksis is stand for Kor-Sukarelawan Polis Siswa Siswi. Among the objectives of the establishment of Suksis is to produce students who have a high sense of identity and discipline. The second is to form students who are intellectual and charismatic in leadership and the third is to cultivate the spirit of friendship among students of multiple races and religions.</p>
+	<p align="justify" style="color:black; font-family:Segoe Print">The training provided is such as police basic training (Inspector), SUKSIS Training has been systematically organized so as not to interfere with student learning, learning about the act and section, firearm handling training and some basic courses such as the PGA Course which is conducted in the forest for approximately 5 days.</p>
+	<br>
+	<h2 style="font-family:Lucida Sans; color:black;" id="photos">Suksis's Photos</h2>
+  <div>
+    <img src="image/gambar1.jpg" style="width:100%">
+  </div>
+  <div>
+    <img src="image/rollcall.jpg" style="width:100%">
+  </div>
+  <div>
+    <img src="image/kw1.1.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/suksis2.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/suksis3.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/suksis6.jpg" style="width:100%">
+  </div>
+  <div>
+    <img src="image/suksis.jpg" style="width:100%">
+  </div>
+  <br>
+  <p align="justify" style="color:black; font-family:Segoe Print">These are some pictures of suksis. We used to run a camp in the jungle and learn to use weapons. Among the weekly activities are marching and fitness activities.</p>
+   <br>
+   <div>
+    <img src="image/hazleefa.jpeg" style="width:100%">
+  </div>
+  <br>
+  <p align="justify" style="color:black; font-family:Segoe Print">This is my friend Hazleefa. She is also a former suksis trainee. She has past away on May 30, 2022 due to a road accident. She is a very kind and gentle person. she has beautiful teeth and a sweet smile. Hazleefa or well known as Efa is a quiet person. At first, I felt very sad for her loss but Allah loves her more. May she rest in peace. Al-Fatihah. &#128151;</p>
+<center><video width="640" height="480" controls>
+  <source src="video/videosuksis.mp4" type="video/mp4">
+</video></center>
+ <br>
+<center><video width="640" height="480" controls>
+  <source src="video/videosuksis2.mov" type="video/mp4">
+</video></center>
+</div>
+</div>
+<div class="footer">
+     <a href="aboutme.html">Cover Page |<a href="index.html"> My Profile |<a href="myfamily.html"> My Family |<a href="myfriend.html"> My Friend |<a href="suksis.html"> Suksis </a><br>
+</br> 
+<p style="color:black;"> copyright 2022-anis zulnawaren </p>
+</div>
+</body>
+</html>

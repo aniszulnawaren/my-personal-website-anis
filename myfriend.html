@@ -1,0 +1,257 @@
+<html lang=en>
+<head>
+<title>My Friend</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: center;
+  color:#FFF
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  text-align: center;
+  color: white;
+}
+
+ table, td{
+ border:1px solid;
+ height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ table{
+ width:70%
+
+ }
+
+  .button {
+  background-color: red; 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.button {border-radius: 100px;}
+ 
+ #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+ 
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: red;
+  color: black;
+}
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.side {
+  -ms-flex: 30%; 
+  flex: 20%;
+  background-color:black;
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: pink;
+  padding: 20px;
+}
+
+  div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+</style>
+</head>
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;</button>
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<div class="header">
+  <img src="image/header.png" width="100%">
+</div>
+
+<div class="navbar">
+<b><a style="font-family:Ink Free" href="aboutme.html">Cover Page</a></b>
+<b><a style="font-family:Ink Free" href="index.html">My Profile</a></b>
+<b><a style="font-family:Ink Free" href="education.html">Education</a></b>
+<b><a style="font-family:Ink Free" href="hobby.html">Hobby</a></b>
+<b><a style="font-family:Ink Free" href="myphotos.html">Photos</a></b>
+<b><a style="font-family:Ink Free" href="myfamily.html">My Family</a></b>
+<b><a style="font-family:Ink Free" href="myfriend.html">My Friend</a></b>
+<b><a style="font-family:Ink Free" href="suksis.html">Suksis</a></b>
+</div>
+  
+<div class="row">
+  <div class="side">
+    <h2 style="text-align:center; font-family:Lucida Handwriting">Anis Zulnawaren</h2>
+   <img src="image/mainphoto.jpeg" width="90%">
+<br>
+<audio controls>
+  <source src="audio/lagu.mp3" type="audio/mpeg">
+  </audio>
+  <br>
+  <br>
+  <br>
+	<a href="https://www.instagram.com/aniszlnwren_" target="_blank"><i class="fa fa-instagram"> Instagram</i></a>
+  </div>
+  
+  <div class="main">
+  <marquee><h2 style="color:black; font-family:Ink Free">&#9825;Assalamualaikum, Welcome to My Personal Website&#9825;</h2></marquee>
+    <h2 style="font-family:Lucida Sans; color:black;">MY FRIEND &#128111;&#128149;</h2>
+    <h5 style="font-size:130%; font-family:Lucida Sans Typewriter; color:black;">A good friend is like a four-leaf clover, hard to find and lucky to have</h5>
+    <img src="image/mainfriend.jpeg" width="50%" >
+	<br>
+	<h2 style="font-family:Lucida Sans; color:black;">About Friends</h2>
+    <p align="justify" style="color:black; font-family:Segoe Print">I have 7 friends including me and we have been friends for about 9 years since high school. One of them is my best friend, my roommate, my classmate, and maybe my soulmate? hahaha, we often go everywhere together till most of the time people often call us twins.</p>
+	<p align="justify" style="color:black; font-family:Segoe Print">Two of my friends used to work at KLIA Kuala Lumpur and they are twin brothers. The other three are waiting for the university's decision to pursue a bachelor's degree and the other one is with me most of the time.</p>
+	<p align="justify" style="color:black; font-family:Segoe Print">Since graduating from high school, we rarely see each other but always remember. The only way to meet is only on Hari Raya Aidilfitri because each will try to find time to spend time together.</p>
+	<br>
+	<h2 style="font-family:Lucida Sans; color:black;" id="photos">Friend's Photos</h2>
+  <div class="column">
+    <img src="image/friends8.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/friends6.jpg" style="width:90%"> 
+	 <img src="image/friends7.jpg" style="width:90%">
+  </div>
+  <div class="column">
+    <img src="image/friends3.jpg" style="width:100%">
+	<br>
+  </div>
+  <br>
+  <br>
+   <p align="justify" style="color:black; font-family:Segoe Print">This is the friend who is always with me. She is everything to me because there are almost no secrets between us. Everywhere we go, people will think we're twins because of the same body shape, the same height, and most importantly we're always together. I would probably feel lonely if she wasn't with me because we don't have many friends. Because of that we will always be together.</p>
+   <p align="justify" style="color:black; font-family:Segoe Print">The acquaintance between us is also known by our family. If we want to go out and tell who we're going out with, sometimes it's a bit difficult for our parents to give permission but if I say her name or she says my name, we will get the permission to go out easily. It's like a magic.</p>
+   <p align="justify" style="color:black; font-family:Segoe Print">I wish her always success in what she does and always a gorgeous girl.</p>
+   <br>
+  <br>
+  <div class="column">
+    <img src="image/friends1.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/friends4.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/friends5.jpg" style="width:100%">
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+  </div>
+  <br>
+  <br>
+  <p align="justify" style="color:black; font-family:Segoe Print">These are my friends at university. They are also my classmates at the same time as groupmates for assignments and travelmates. We just met during the 3rd semester but our relationship is getting closer as if we have known each other for a long time. I hope we will continue to be good friends and useful to each other. That photo was taken while we were walking around Penang.</p>
+  <p align="justify" style="color:black; font-family:Segoe Print">The second picture is me with my friend who has been friends for 9 years. I hope this friendship will last forever. I can't describe how much I love them. May they be happy and healthy as well.</p>
+  <p align="justify" style="color:black; font-family:Segoe Print">The last picture is a friend from form six school. But unfortunately we rarely communicate anymore. However, I always pray for them to succeed in their studies and in everything they do.</p>
+  <br>
+  <br>
+  <center><video width="640" height="480" controls>
+  <source src="video/videofriend.MOV" type="video/mp4">
+</video></center>
+</div>
+</div>
+<div class="footer">
+  <a href="aboutme.html">Cover Page |<a href="index.html"> My Profile |<a href="myfamily.html"> My Family |<a href="myfriend.html"> My Friend |<a href="suksis.html"> Suksis </a><br>
+</br> 
+<p style="color:black;"> copyright 2022-anis zulnawaren </p>
+</div>
+</body>
+</html>
